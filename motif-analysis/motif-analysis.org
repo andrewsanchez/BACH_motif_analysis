@@ -1,0 +1,5 @@
+#+TITLE: Bach Motif Analysis
+
+* How to access musical corpora
+
+* Basic music21 objects

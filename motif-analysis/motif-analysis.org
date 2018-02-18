@@ -1,5 +1,43 @@
 #+TITLE: Bach Motif Analysis
 
-* How to access musical corpora
+** Finding BACH with Python
 
-* Basic music21 objects
+1. Introduce computational musicology
+
+    - How, when and why would one apply programming to musicology?
+
+2. Introduce the Bach motif
+
+3. Discuss data formats used in computational musicology
+   - Focus on MusicXML
+
+4. Accessing musical corpora
+   - What are the options for finding and loading a musical corpus?
+
+5. Discuss important music21 objects
+
+6. Provide foundational skills for finding the motif
+   - Iterating over scores
+   - Finding groups of note objects we are interested in
+
+7. Give an example that finds the motif in simplistic cases
+
+   Find the motif, but fail in some edge cases such as:
+   - fails if the motif occurs across bar lines
+   - can't find the motif across different voices
+
+8. Identify motifs successfully in a more complex situation
+   - i.e. across measures and/or voices
+
+9. Examine the musical contexts of motif occurrences
+   - Tonal qualities
+   - Where the motif occurs in relation to the whole
+
+10. Tie a pipeline together and run on a non-Bach corpus
+
+11. Draw and analyze results on musical staff
+    - Show how to display results on a staff by highlighting the notes we identified in the analysis.
+
+12. Listen to the results
+
+    Write a function that will allow students to listen to and compare each occurrence of the motif in the context of each piece by generating midi for each one.
